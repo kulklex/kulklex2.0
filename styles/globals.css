@@ -21,9 +21,20 @@
 }
 }
 
+.app__bg {
+    background: url('../public/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+
+
 .active {
     color: white;
 }
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+
