@@ -14,7 +14,7 @@ export default function Navbar({}: Props) {
     const [showMenu, setShowMenu] = useState<boolean>(false)
 
   return (
-    <div className="w-full h-24 sticky top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
+    <div className="w-full h-24 static top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
         <div>
             <Image src={logo} alt="logo" />
         </div>

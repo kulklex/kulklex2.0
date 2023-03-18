@@ -10,9 +10,9 @@ type Props = {}
 
 export default function Features({}: Props) {
   return (
-    <section id="features" className='w-full flex flex-col h-full pb-20 py-10 border-b-[1px] border-b-designColor'>
-      <Title title="Features" desc="What I Do" />
-      <div className="w-full h-full grid grid-cols-1  xl:grid-cols-3 gap-6 xl:gap-20 my-4 px-2 py-4">
+    <section id="services" className='w-full flex flex-col justify-center items-center text-center h-full pb-20 py-10 border-b-[1px] border-b-designColor'>
+      <Title title="my areas of specialty" desc="SERVICES I OFFER" />
+      <div className="w-full h-full grid grid-cols-1  xl:grid-cols-3 gap-6 xl:gap-20 my-4 md:px-2 py-4">
         <Card
           title="Frontend Development"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
