@@ -6,7 +6,7 @@ import {  BsGit } from 'react-icons/bs'
 import {  AiOutlineHtml5 } from 'react-icons/ai'
 import {  TbBrandReactNative } from 'react-icons/tb'
 import { DiNodejs, DiPython, DiDjango, DiMongodb, DiJava } from 'react-icons/di'
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa"
+import { FaFacebookF, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa"
 import { SiTailwindcss, SiMysql, SiPostgresql, SiBootstrap, SiSpringboot, SiSpringsecurity, SiFigma, SiNextdotjs, SiTypescript, SiRedux } from "react-icons/si"
 import banner from '../public/images/bannerImg.png'
 
@@ -109,7 +109,10 @@ export default function Banner({}: Props) {
               <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
                 Find me in
               </h2>
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-4">
+                <span className="bannerIcon bg-transparent text-4xl">
+                  <Link href="/" ><FaGithub /></Link>
+                </span>
                 <span className="bannerIcon bg-blue-400 text-4xl">
                   <Link href="/" ><FaFacebookF /></Link>
                 </span>
@@ -130,7 +133,7 @@ export default function Banner({}: Props) {
 
 
         {/* RIGHT SIDE START*/}
-        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative">
+        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden">
           <Image src={banner} alt="banner" className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10" />
           <div  className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"  />
         </div> 
