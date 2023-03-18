@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
-import Features from '../components/Features'
-import Projects from '../components/Projects'
-import Resume from '../components/Resume'
+import Features from '../components/Features/Features'
+import Projects from '../components/Projects/Projects'
+import Resume from '../components/Resume/Resume'
 import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer'
-import FooterBottom from '../components/FooterBottom'
+import Footer from '../components/Footer/Footer'
+import FooterBottom from '../components/Footer/FooterBottom'
 
 const Home: NextPage = () => {
   return (
