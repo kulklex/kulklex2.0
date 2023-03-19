@@ -16,7 +16,7 @@ type Props = {
 
 export default function Banner({showMenu}: Props) {
   const [text] = useTypewriter({
-    words: ["Full Stack Developer.", "Software Web Developer.",],
+    words: ["Full Stack Developer.", "MERN Stack Developer", "Software Web Developer.",],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
