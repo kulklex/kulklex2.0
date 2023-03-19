@@ -19,7 +19,7 @@ export default function Resume({}: Props) {
       </div>
 
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-3">
+        <ul className="w-full grid grid-cols-3">
           <li className={`resumeLi ${educationData ? 'border-designColor rounded-lg' : 'border-transparent'}`} onClick={() => {setEducationData(true); setSkillData(false); setExperienceData(false)}}>
             Education
           </li>

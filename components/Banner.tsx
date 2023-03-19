@@ -10,9 +10,11 @@ import { FaFacebookF, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn, FaReact } 
 import { SiTailwindcss, SiMysql, SiPostgresql, SiBootstrap, SiSpringboot, SiSpringsecurity, SiFigma, SiNextdotjs, SiTypescript, SiRedux } from "react-icons/si"
 import banner from '../public/images/bannerImg.png'
 
-type Props = {}
+type Props = {
+  showMenu: any
+}
 
-export default function Banner({}: Props) {
+export default function Banner({showMenu}: Props) {
   const [text] = useTypewriter({
     words: ["Full Stack Developer.", "Software Web Developer.",],
     loop: true,
@@ -33,7 +35,7 @@ export default function Banner({}: Props) {
             </h1>
             <h2 className="text-xl md:text-3xl font-bold text-white">
               a <span>{text}</span>
-              <Cursor cursorBlinking={false} cursorStyle="|"  cursorColor="#DCCA87" />
+              { !showMenu && <Cursor cursorBlinking={false} cursorStyle="|"  cursorColor="#DCCA87" />}
             </h2>
             <p className="text-base font-bodyFont leading-6 tracking-wide">
               I use animation as a third dimension by which to simplify experiences and building through each and every interaction.
@@ -110,19 +112,19 @@ export default function Banner({}: Props) {
                 Find me in
               </h2>
               <div className="flex flex-wrap gap-4">
-                <span className="bannerIcon bg-transparent text-4xl">
+                <span className="bannerIcon bg-transparent text-2xl md:text-4xl">
                   <Link href="/" ><FaGithub /></Link>
                 </span>
-                <span className="bannerIcon bg-blue-400 text-4xl">
+                <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
                   <Link href="/" ><FaFacebookF /></Link>
                 </span>
-                <span className="bannerIcon bg-blue-800 text-4xl">
+                <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
                   <Link href="/" ><FaTwitter /></Link>
                 </span>
-                <span className="bannerIcon bg-blue-600 text-3xl">
+                <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
                   <Link href="/" ><FaLinkedinIn /></Link>
                 </span>
-                <span className="bannerIcon instagramIcon text-4xl">
+                <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
                   <Link href="/" ><FaInstagram /></Link>
                 </span>
               </div>
@@ -133,7 +135,7 @@ export default function Banner({}: Props) {
 
 
         {/* RIGHT SIDE START*/}
-        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden">
+        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2">
           <Image src={banner} alt="banner" className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10" />
           <div  className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"  />
         </div> 
