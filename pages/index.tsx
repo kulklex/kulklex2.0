@@ -7,7 +7,6 @@ import Projects from '../components/Projects/Projects'
 import Resume from '../components/Resume/Resume'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
-import FooterBottom from '../components/Footer/FooterBottom'
 
 
 const Home: NextPage = () => {
@@ -22,7 +21,6 @@ const Home: NextPage = () => {
         <Resume />
         <Contact />
         <Footer />
-        <FooterBottom />
       </div>
     </div>
   )
