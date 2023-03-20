@@ -12,7 +12,7 @@ import Footer from '../components/Footer/Footer'
 const Home: NextPage = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false)
   return (
-    <div className="w-full h-auto app__bg text-lightText px-4 overflow-hidden">
+    <div className="w-full h-auto app__bg text-lightText px-4 lg:px-8 overflow-hidden">
       <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       <div className="max-w-screen-xl mx-auto py-4">
         <Banner showMenu={showMenu} />
