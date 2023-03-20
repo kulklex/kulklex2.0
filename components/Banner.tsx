@@ -24,8 +24,8 @@ export default function Banner({showMenu}: Props) {
   })
 
   return (
-    <section id="home" className='w-full h-full pb-20 flex flex-col md:flex-row border-b-[1px] border-b-designColor font-titleFont'>
-        
+    <section id="home" className='w-full h-full pb-20 pt-10 flex flex-col border-b-[1px] border-b-designColor font-titleFont'>
+      <div className='w-full h-full flex flex-col md:flex-row'>
         {/* LEFT SIDE START*/}
         <div className="w-full md:w-1/2">
           <div className="flex flex-col gap-5  flex-[1]">
@@ -42,103 +42,104 @@ export default function Banner({showMenu}: Props) {
               My work is related to digital solutions that can help to achieve better results. Scroll through my portfolio for more about me.
             </p>
           </div>
-
-
-          <div className="flex flex-col flex-[1] gap-6  justify-between py-10">
-            <div>
-              <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
-                TECHNOLOGIES
-              </h2>
-              <div className="flex flex-wrap gap-4 items-center justify-center">
-                <span className="bannerIcon text-extrabold text-4xl text-blue-300">
-                  <FaReact />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-green-300">
-                  <DiNodejs />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-green-800">
-                  <DiMongodb />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl">
-                  <SiNextdotjs />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-blue-600">
-                  <SiTypescript />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-purple-500">
-                  <SiRedux />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-blue-400">
-                  <SiTailwindcss />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-purple-700">
-                  <SiBootstrap />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-orange-800">
-                  <BsGit />
-                </span>
-                <span className="bannerIcon  text-extrabold text-4xl text-orange-700">
-                  <DiJava />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-green-600">
-                  <SiSpringboot />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-green-800">
-                  <SiSpringsecurity />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-white">
-                  <DiPython />
-                </span>
-                <span className="bannerIcon  text-extrabold text-4xl text-white">
-                  <DiDjango />
-                </span>
-                <span className="bannerIcon  text-extrabold text-4xl text-blue-200">
-                  <SiMysql />
-                </span>
-                <span className="bannerIcon  text-extrabold text-4xl text-blue-800">
-                  <SiPostgresql />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-blue-800">
-                  <TbBrandReactNative />
-                </span>
-                <span className="bannerIcon text-extrabold text-4xl text-orange-500">
-                  <AiOutlineHtml5 />
-                </span>
-              </div>
-            </div>
-
-            <div className="mt-10">
-              <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
-                Contact me
-              </h2>
-              <div className="flex flex-wrap gap-4">
-                <span className="bannerIcon bg-transparent text-2xl md:text-4xl">
-                  <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
-                </span>
-                <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
-                  <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
-                </span>
-                <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
-                  <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
-                </span>
-                <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
-                  <Link href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target='_blank'><FaLinkedinIn /></Link>
-                </span>
-                <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
-                  <Link href="https://www.instagram.com/_haz_zan_/" target='_blank'><FaInstagram /></Link>
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
         {/* LEFT SIDE ENDS*/}
 
-
         {/* RIGHT SIDE START*/}
-        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2">
-          <Image src={profilePic} alt="banner" className="w-[350px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10 rounded" />
+        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2 py-10 md:py-0">
+          <Image src={profilePic} alt="banner" className="w-[350px] h-[400px] lg:w-[450px] lg:h-[550px] z-10 rounded" />
         </div> 
         {/* LEFT SIDE ENDS*/}
+      </div>  
+
+      
+
+      <div className="flex flex-col flex-[1] gap-6  justify-between py-10">
+        <div>
+          <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
+            TECHNOLOGIES
+          </h2>
+          <div className="flex flex-wrap gap-4 items-center justify-center">
+            <span className="bannerIcon text-extrabold text-4xl text-blue-300">
+              <FaReact />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-green-300">
+              <DiNodejs />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-green-800">
+              <DiMongodb />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl">
+              <SiNextdotjs />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-blue-600">
+              <SiTypescript />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-purple-500">
+              <SiRedux />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-blue-400">
+              <SiTailwindcss />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-purple-700">
+              <SiBootstrap />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-orange-800">
+              <BsGit />
+            </span>
+            <span className="bannerIcon  text-extrabold text-4xl text-orange-700">
+              <DiJava />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-green-600">
+              <SiSpringboot />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-green-800">
+              <SiSpringsecurity />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-white">
+              <DiPython />
+            </span>
+            <span className="bannerIcon  text-extrabold text-4xl text-white">
+              <DiDjango />
+            </span>
+            <span className="bannerIcon  text-extrabold text-4xl text-blue-200">
+              <SiMysql />
+            </span>
+            <span className="bannerIcon  text-extrabold text-4xl text-blue-800">
+              <SiPostgresql />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-blue-800">
+              <TbBrandReactNative />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-orange-500">
+              <AiOutlineHtml5 />
+            </span>
+          </div>
+        </div>
+
+        <div className="mt-10">
+          <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
+            Contact me
+          </h2>
+          <div className="flex flex-wrap gap-4">
+            <span className="bannerIcon bg-transparent text-2xl md:text-4xl">
+              <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
+            </span>
+            <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
+              <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
+            </span>
+            <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
+              <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
+            </span>
+            <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
+              <Link href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target='_blank'><FaLinkedinIn /></Link>
+            </span>
+            <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
+              <Link href="https://www.instagram.com/_haz_zan_/" target='_blank'><FaInstagram /></Link>
+            </span>
+          </div>
+        </div>
+      </div>  
     </section>
   )
 }
