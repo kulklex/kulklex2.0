@@ -1,11 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
-import { logo } from '../public'
 import { navLinksData } from '../constants'
 import {Link} from 'react-scroll'
 import { FiMenu } from "react-icons/fi"
 import { MdClose } from "react-icons/md"
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa"
+import { FaFacebookF, FaRegEnvelope, FaTwitter, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa"
 import Links from 'next/link'
 
 
@@ -18,14 +16,17 @@ export default function Navbar({showMenu, setShowMenu}: Props) {
     
 
   return (
-    <div className="w-full h-24 static top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
+    <div className="w-full h-24 sticky top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
         <div>
-            <Image src={logo} alt="logo" />
+            <Links href="/" className="text-base md:text-lg font-normal text-white hover:text-designColor tracking-wide cursor-pointer duration-300 flex items-center justify-center">
+                <b> My Portfolio</b>
+                <span className="mx-2"><FaRegEnvelope /></span>
+            </Links>
         </div>
         <div>
             <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
                 {navLinksData.map((navLink) => (
-                    <li key={navLink._id} className="text-base font-normal text-designColor tracking-wide cursor-pointer hover:text-white duration-300">
+                    <li key={navLink._id} className="text-base font-normal text-white hover:text-designColor tracking-wide cursor-pointer duration-300">
                         <Link to={navLink.link} activeClass='active' smooth={true} spy={true} offset={-70} duration={500} >
                             {navLink.title}
                         </Link>
@@ -40,19 +41,9 @@ export default function Navbar({showMenu, setShowMenu}: Props) {
             {showMenu && (<>
                 <div className="w-full h-screen overflow-scroll absolute top-0 left-0 app__bg p-4 scrollbar-hide">
                     <div className='flex flex-col justify-center items-center text-center gap-8 py-2 relative'>
-                        {/* <div className="w-full m-2">
-                            <Image className='w-32' src={logo} alt="logo" />
-                            <br/>
-                            <p className='text-s text-designColor mt-2'>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Earum soluta perspiciatis molestias enim cum repellat, magnam
-                                exercitationem distinctio aliquid nam.
-                            </p>
-                        </div> */}
-
                         <ul className='flex flex-col gap-4 py-4 my-4 mt-[30%]'>
                             {navLinksData.map((navLink) => (
-                                <li key={navLink._id} className="text-2xl font-normal text-designColor tracking-wide cursor-pointer hover:text-white duration-300">
+                                <li key={navLink._id} className="text-2xl font-normal text-white hover:text-designColor tracking-wide cursor-pointer duration-300">
                                     <Link to={navLink.link} activeClass='active' smooth={true} spy={true} offset={-70} duration={500}  onClick={() => setShowMenu(false)}>
                                         {navLink.title}
                                     </Link>
@@ -60,38 +51,34 @@ export default function Navbar({showMenu, setShowMenu}: Props) {
                             ))}
                         </ul>
 
-                        
                         <div className=' w-full h-full flex flex-col justify-center items-center gap-4 text-white relative mt-[20%]'>
                             <h2 className="text-base uppercase font-titleFont mb-4">
-                                Find me in
+                                Contact me
                             </h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bannerIcon bg-transparent text-4xl">
-                                    <Links href="/" ><FaGithub /></Links>
+                                    <Links href="https://github.com/kulklex/" target='_blank'><FaGithub /></Links>
                                 </span>
                                 <span className="bannerIcon bg-blue-400 text-4xl">
-                                    <Links href="/" ><FaFacebookF /></Links>
+                                    <Links href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank' ><FaFacebookF /></Links>
                                 </span>
                                 <span className="bannerIcon bg-blue-800 text-4xl">
-                                    <Links href="/" ><FaTwitter /></Links>
+                                    <Links href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Links>
                                 </span>
                                 <span className="bannerIcon bg-blue-600 text-3xl">
-                                    <Links href="/" ><FaLinkedinIn /></Links>
+                                    <Links href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target="_blank"><FaLinkedinIn /></Links>
                                 </span>
                                 <span className="bannerIcon instagramIcon text-4xl">
-                                    <Links href="/" ><FaInstagram /></Links>
+                                    <Links href="https://www.instagram.com/_haz_zan_/" target='_blank'><FaInstagram /></Links>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                
-
                 <span onClick={() => setShowMenu(false)} className="absolute top-4 right-4 text-designColor hover:text-white duration-300 text-2xl cursor-pointer">
                     <MdClose />
                 </span>
-
                 
             </>)}
         </div>

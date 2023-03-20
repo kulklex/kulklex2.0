@@ -8,7 +8,7 @@ import {  TbBrandReactNative } from 'react-icons/tb'
 import { DiNodejs, DiPython, DiDjango, DiMongodb, DiJava } from 'react-icons/di'
 import { FaFacebookF, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa"
 import { SiTailwindcss, SiMysql, SiPostgresql, SiBootstrap, SiSpringboot, SiSpringsecurity, SiFigma, SiNextdotjs, SiTypescript, SiRedux } from "react-icons/si"
-import banner from '../public/images/bannerImg.png'
+import {profilePic} from '../public'
 
 type Props = {
   showMenu: any
@@ -16,7 +16,7 @@ type Props = {
 
 export default function Banner({showMenu}: Props) {
   const [text] = useTypewriter({
-    words: ["Full Stack Developer.", "MERN Stack Developer", "Software Web Developer.",],
+    words: ["Full Stack Developer.", "Software Developer.", "MERN Stack Developer",],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -38,8 +38,8 @@ export default function Banner({showMenu}: Props) {
               { !showMenu && <Cursor cursorBlinking={false} cursorStyle="|"  cursorColor="#DCCA87" />}
             </h2>
             <p className="text-base font-bodyFont leading-6 tracking-wide">
-              I use animation as a third dimension by which to simplify experiences and building through each and every interaction.
-              I’m not adding motion just to spruce things up, but doing it ways that.
+              An enthusiast of software development. Being an enthusiast lead to my exploration of the field, I always consider myself a ‘forever student’ eager to build projects and stay in tune with the latest IT trends.
+              My work is related to digital solutions that can help to achieve better results. Scroll through my portfolio for more about me.
             </p>
           </div>
 
@@ -109,23 +109,23 @@ export default function Banner({showMenu}: Props) {
 
             <div className="mt-10">
               <h2 className="text-base text-designColor uppercase font-titleFont mb-4">
-                Find me in
+                Contact me
               </h2>
               <div className="flex flex-wrap gap-4">
                 <span className="bannerIcon bg-transparent text-2xl md:text-4xl">
-                  <Link href="/" ><FaGithub /></Link>
+                  <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
                 </span>
                 <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
-                  <Link href="/" ><FaFacebookF /></Link>
+                  <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
                 </span>
                 <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
-                  <Link href="/" ><FaTwitter /></Link>
+                  <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
                 </span>
                 <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
-                  <Link href="/" ><FaLinkedinIn /></Link>
+                  <Link href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target='_blank'><FaLinkedinIn /></Link>
                 </span>
                 <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
-                  <Link href="/" ><FaInstagram /></Link>
+                  <Link href="https://www.instagram.com/_haz_zan_/" target='_blank'><FaInstagram /></Link>
                 </span>
               </div>
             </div>
@@ -136,8 +136,7 @@ export default function Banner({showMenu}: Props) {
 
         {/* RIGHT SIDE START*/}
         <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2">
-          <Image src={banner} alt="banner" className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10" />
-          <div  className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"  />
+          <Image src={profilePic} alt="banner" className="w-[350px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10 rounded" />
         </div> 
         {/* LEFT SIDE ENDS*/}
     </section>

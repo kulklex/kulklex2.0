@@ -24,19 +24,19 @@ export default function ContactCard({}: Props) {
       <div className="mt-5">
           <div className="flex flex-wrap gap-4">
             <span className="bannerIcon bg-transparent text-2xl md:text-4xl">
-              <Link href="/" ><FaGithub /></Link>
+              <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
             </span>
             <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
-              <Link href="/" ><FaFacebookF /></Link>
+              <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
             </span>
             <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
-              <Link href="/" ><FaTwitter /></Link>
+              <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
             </span>
             <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
-              <Link href="/" ><FaLinkedinIn /></Link>
+              <Link href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" ><FaLinkedinIn /></Link>
             </span>
             <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
-              <Link href="/" ><FaInstagram /></Link>
+              <Link href="https://www.instagram.com/_haz_zan_/" target="_blank"><FaInstagram /></Link>
             </span>
           </div>
         </div>
