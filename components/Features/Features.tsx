@@ -13,17 +13,17 @@ export default function Features({}: Props) {
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-6 xl:gap-20 my-4 px-2 py-4">
         <Card
           title="Frontend Development"
-          desc="I create & design responsive and dynamic websites. Some of the technologies i make use of includes: HTML, CSS, React, NextJs, Tailwindcss, Bootstrap, Material UI, Styled Component."
+          desc="I create & design responsive and dynamic websites. It also includes making API calls to Custom endpoints or third-party API's. Some of the technologies I use includes; HTML, CSS, React, NextJs, Tailwindcss, Bootstrap, Material UI, Styled Component."
           icon={<MdOutlineScreenshotMonitor />}
         />
         <Card
           title="Backend Development"
-          desc="It has to do with improving your site/app by adding server side logic/features to it, creating user login, storing data on the database etc to create seamless and functional experience for the users. I make use of Nodejs & Expressjs, django, spring & spring boot for this service."
+          desc="It has to do with improving your site/app by adding server side logic/features to it, creating custom endpoints, storing data on the database etc, to create seamless and functional experience for users. I make use of Nodejs & Expressjs, django, spring & spring boot for this service."
           
         />
         <Card
           title="Mobile Development"
-          desc="I create & design responsive and dynamic software applications that run on a mobile device, I make use of React Native and Kotlin for this service."
+          desc="I create & design responsive and dynamic software applications that run on a mobile device. It also includes making API calls to Custom endpoints or third-party API's. I make use of React Native and Kotlin for this service."
           icon={<FaMobile />}
         />
         <Card
@@ -33,7 +33,7 @@ export default function Features({}: Props) {
         />
         <Card
           title="Other Services"
-          desc="This includes Web Hosting, SEO Optimization  "
+          desc="This includes Web Hosting, SEO Optimization, Complex State Management (i.e. Redux, zustand etc), Payment Gateway Integration (i.e. Paystack, PayPal etc) "
           icon={<FaGlobe />}
         />
       </div>
