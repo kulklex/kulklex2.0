@@ -3,6 +3,7 @@ import Title from '../Title'
 import Card from './Card'
 import {MdOutlineScreenshotMonitor, MdEventNote} from 'react-icons/md'
 import { FaMobile, FaGlobe } from "react-icons/fa"
+import {  CgWebsite } from 'react-icons/cg'
 
 type Props = {}
 
@@ -12,8 +13,13 @@ export default function Features({}: Props) {
       <Title title="my areas of specialty" desc="SERVICES I OFFER" />
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-6 xl:gap-20 my-4 px-2 py-4">
         <Card
+          title="Responsive Websites"
+          desc="I create & design responsive and dynamic websites. I make use of HTML, CSS, Javascript, WordPress, and some CSS Libraries (tailwindcss, bootstrap, sass) for creation."
+          icon={<CgWebsite />}
+        />
+        <Card
           title="Frontend Development"
-          desc="I create & design responsive and dynamic websites. It also includes making API calls to Custom endpoints or third-party API's. Some of the technologies I use includes; HTML, CSS, React, NextJs, Tailwindcss, Bootstrap, Material UI, Styled Component."
+          desc="I create responsive and dynamic web apps. It also includes making API calls to Custom endpoints or third-party API's. Some of the technologies I use includes; HTML, CSS, React, NextJs, Redux, ReduxToolKit, Tailwindcss, Bootstrap, Material UI, Styled Component, Framer-Motion."
           icon={<MdOutlineScreenshotMonitor />}
         />
         <Card

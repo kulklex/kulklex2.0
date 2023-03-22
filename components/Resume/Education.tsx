@@ -15,22 +15,16 @@ export default function Education({}: Props) {
 
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            desc="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Advanced Diploma In Software Engineering"
+            subTitle="Aptech Computer Education (2020 - 2022)"
+            result="Distinction"
+            desc=""
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            desc="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            desc="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Senior Secondary School Certificate"
+            subTitle="Government Senior Model College Owutu (2017)"
+            result="Excellent"
+            desc=""
           />
         </div>
     </motion.div>

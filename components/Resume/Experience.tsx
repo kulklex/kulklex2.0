@@ -13,22 +13,22 @@ export default function Experience({}: Props) {
         </div>
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            desc="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Full Stack Junior Developer (Contract)"
+            subTitle="DataSek IT & ENGR - (March 2022 - Septmeber 2022)"
+            result="Ogba, Lagos State, Nigeria"
+            desc="Created, Built and Designed the entire Dashboard of the product and assisted with the design for the web application. Participated in the development of RESTFUL services, API integration, Payment Gateway Integration, Database management, Authentication and Authorization implementations and other technical back-end aspect ofthe product.   Performed unit tests and automated tests for each components of the software.    Assisted with Deployment and maintenance of Software on the Cloud.   Worked as a team-member led by a team-lead."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            desc="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Freelancer"
+            subTitle="(June 2022 - Present)"
+            result="Nigeria"
+            desc="Developed Software solutions (Web and Mobile apps) for clients.    Updated and modified existing software on the hosted server for clients.    Full management of software products."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            desc="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Web Development (Internship)"
+            subTitle="Aptech (January 2022 - June 2022)"
+            result="Alagbole, Ogun State, Nigeria"
+            desc="Participated in the development of Website Projects and hosted them.   Taught Vanilla JavaScript, Bootstrap & Jquery, Nodejs and Python, Basics to Software Engineering Beginners.   Learnt some Web technologies (Tailwind, C++, Angular 11).   Assisted in troubleshooting web-based issues."
           />
         </div>
     </motion.div>
