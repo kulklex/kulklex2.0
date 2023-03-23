@@ -15,7 +15,7 @@ export default function Resume({}: Props) {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-designColor">
       <div className='flex justify-center items-center text-center'>
-        <Title title='3+ YEARS OF EXPERIENCE' desc='My Resume' />
+        <Title title='2+ YEARS OF EXPERIENCE' desc='My Resume' />
       </div>
 
       <div>
@@ -30,6 +30,7 @@ export default function Resume({}: Props) {
             Experience
           </li>
         </ul>
+        
       </div>
 
       {educationData && <Education />}
