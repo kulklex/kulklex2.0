@@ -15,6 +15,12 @@ export default function Education({}: Props) {
 
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Bachelors Of Science in Metallurgical and Material Engineering"
+            subTitle="University of Lagos(2018 - Date)"
+            result="second class upper"
+            desc=""
+          />
+          <ResumeCard
             title="Advanced Diploma In Software Engineering"
             subTitle="Aptech Computer Education (2020 - 2022)"
             result="Distinction"
