@@ -21,7 +21,7 @@ export default function ProjectsCard({title, desc, url, gitHub, img}: Props) {
                 src={img} alt="project-image" />
         </div>
         
-        <div className="w-full md:mt-5 flex flex-col mx-4 mb-4 md:mt-4  gap-6">
+        <div className="w-full md:mt-5 flex flex-col mx-4 mb-4 gap-6">
             <div>
                 <div className="flex flex-col md:flex-row items-center justify-between md:px-4">
                     <h3 className="text-lg md:text-xl uppercase text-designColor font-normal">
