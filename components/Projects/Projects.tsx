@@ -3,7 +3,8 @@ import Title from '../Title'
 import ProjectsCard from './ProjectsCard'
 import Slider from 'react-slick' 
 import {restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,} from "../../public"
-
+import {  FaGithub,  } from 'react-icons/fa'
+import Link from 'next/link'
 
 
 
@@ -42,21 +43,30 @@ function PrevArrow(props: Props) {
 export default function Projects({}: Props) {
   let settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,  
+    slidesToScroll: 1,
+    autoplay: true,  
+    autoplaySpeed: 8000,
   }
 
   return (
-    <section id="projects"  className="w-full px-4 py-20 border-b-[1px] border-b-designColor">
+    <section id="projects"  className="w-full px-4 py-20 border-b-[1px] border-b-designColor lg:flex lg:flex-col lg:justify-center lg:items-center lg:text-center">
         <div className="flex justify-center items-center text-center">
             <Title title={`HERE I SHOW OFF SOME OF THE PROJECTS I HAVE WORKED ON.`} desc="My Projects" />
         </div>
 
-        <Slider {...settings} className="md:px-4">
+        <div className="text-xs flex justify-center item-center text-center pt-2 pb-4 text-white hover:text-designColor"> 
+          <p>You can access more projects on my github page {"  "}</p>
+          <span className="bg-black text-white flex items-center justify-center text-center px-2 py-1">
+            <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
+          </span>
+        </div>
+
+        <Slider {...settings} className="md:px-4 lg:w-[50%] flex justify-center items-center text-center">
           <div>
-            <ProjectsCard title="React Native Jobs API" desc="A payment-gateway landing-page-website's complete UI with responsiveness" url={`https://payment-gtw-landingpage-ui.vercel.app`} gitHub="https://github.com/kulklex/payment-gtw-landingpage-ui" />
+            <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={`https://payment-gtw-landingpage-ui.vercel.app`} gitHub="https://github.com/kulklex/React-Native-Jobs-App" />
           </div>
           <div>
             <ProjectsCard title="Pixabay API" desc="Displaying Dynamic features with Pixabay API" url={`https://pictures-app-with-pixabayapi-git-pixabay-api-kulklex.vercel.app/`} gitHub="https://github.com/kulklex/React-Pixabay-Api" img={pixabayAPI} />
