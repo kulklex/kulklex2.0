@@ -16,7 +16,7 @@ export default function Navbar({showMenu, setShowMenu}: Props) {
     
 
   return (
-    <div className="w-full h-24 sticky top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
+    <div className="w-full h-24 static top-0 z-50 app__bg mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-designColor">
         <div>
             <Links href="/" className="text-base md:text-lg font-normal text-white hover:text-designColor tracking-wide cursor-pointer duration-300 flex items-center justify-center">
                 <b> My Portfolio</b>

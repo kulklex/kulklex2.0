@@ -37,7 +37,7 @@ export default function Banner({showMenu}: Props) {
               a <span>{text}</span>
               { !showMenu && <Cursor cursorBlinking={false} cursorStyle="|"  cursorColor="#DCCA87" />}
             </h2>
-            <p className="text-base font-bodyFont leading-6 tracking-wide">
+            <p className="text-base font-bodyFont leading-6 tracking-wide lg:pt-10 lg:text-xl">
               An enthusiast of software development. Being an enthusiast lead to my exploration of the field, I always consider myself a ‘forever student’ eager to build projects and stay in tune with the latest IT trends.
               My work is related to digital solutions that can help to achieve better results. Scroll through my portfolio for more about me.
             </p>
@@ -46,7 +46,7 @@ export default function Banner({showMenu}: Props) {
         {/* LEFT SIDE ENDS*/}
 
         {/* RIGHT SIDE START*/}
-        <div className="w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2 py-10 md:py-0">
+        <div className={`w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2 md:py-0 ${showMenu ? "py-40" : "py-10"}`}>
           <Image src={profilePic} alt="banner" className="w-[350px] h-[400px] lg:w-[450px] lg:h-[550px] z-10 rounded" />
         </div> 
         {/* LEFT SIDE ENDS*/}
