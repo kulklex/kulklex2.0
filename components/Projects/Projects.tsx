@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Title'
 import ProjectsCard from './ProjectsCard'
 import Slider from 'react-slick' 
-import {restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,} from "../../public"
+import {restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI, nativeJobsAPI,} from "../../public"
 import {  FaGithub,  } from 'react-icons/fa'
 import Link from 'next/link'
 
@@ -66,7 +66,7 @@ export default function Projects({}: Props) {
 
         <Slider {...settings} className="md:px-4 lg:w-[50%] flex justify-center items-center text-center">
           <div>
-            <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={`https://payment-gtw-landingpage-ui.vercel.app`} gitHub="https://github.com/kulklex/React-Native-Jobs-App" />
+            <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
           </div>
           <div>
             <ProjectsCard title="Pixabay API" desc="Displaying Dynamic features with Pixabay API" url={`https://pictures-app-with-pixabayapi-git-pixabay-api-kulklex.vercel.app/`} gitHub="https://github.com/kulklex/React-Pixabay-Api" img={pixabayAPI} />
