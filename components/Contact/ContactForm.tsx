@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import axios from 'axios'
 
 type Props = {}
 
@@ -27,7 +27,7 @@ export default function Contact({}: Props) {
   // Email Validation End
 
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = async (e:any) => {
     e.preventDefault()
     if (username === "") setErrorMsg("Name Field is required!")
     else if (phoneNumber === "") setErrorMsg("Phone Number Field is required!")
@@ -35,17 +35,24 @@ export default function Contact({}: Props) {
     else if (!emailValidation(email)) setErrorMsg("Invalid Email Type")
     else if (message === "") setErrorMsg("Message Field is required!")
     
-    else {
-      setSuccessMsg(
-        `Thank you ${username}, Your Message has been sent Successfully!`
-      );
-      setErrorMsg("");
-      setUserName("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
-    }
+
+    try {
+      await  axios.post('/api/mail', {username, phoneNumber, email, subject, message})
+      .then(() => {
+        setSuccessMsg(`Thank you ${username}, Your Message has been sent Successfully!`)
+        setErrorMsg("");
+        setUserName("");
+        setPhoneNumber("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+      })
+      
+      
+    } catch (err) {
+      console.error(err)
+    }  
+    
   }
 
   return (  
