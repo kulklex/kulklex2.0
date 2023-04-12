@@ -1,7 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+
+
+
 
 @layer components{
     .bannerIcon{
@@ -22,13 +30,13 @@
 }
 
 .app__bg {
-    background: url('../assets/bg.png');
-    background-image: url('../assets/bg.png') repeat;
+    background-color: #161515 !important;
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
-  }
+}
+
 
 
 .active {
@@ -37,7 +45,6 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
-
 
 .instagramIcon {
     border-radius: 20%;
