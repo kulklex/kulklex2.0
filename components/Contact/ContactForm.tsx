@@ -37,7 +37,7 @@ export default function Contact({}: Props) {
     
 
     try {
-      await  axios.post('/api/mail', {username, phoneNumber, email, subject, message})
+      await  axios.post('/api/sendEmail', {username, phoneNumber, email, subject, message})
       .then(() => {
         setSuccessMsg(`Thank you ${username}, Your Message has been sent Successfully!`)
         setErrorMsg("");
