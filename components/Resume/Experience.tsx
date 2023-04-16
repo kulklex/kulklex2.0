@@ -26,7 +26,7 @@ export default function Experience({}: Props) {
           />
           <ResumeCard
             title="Web Development (Internship)"
-            subTitle="Aptech (January 2022 - June 2022)"
+            subTitle="Aptech (September 2021 - March 2022)"
             result="Alagbole, Ogun State, Nigeria"
             desc="Participated in the development of Website Projects and hosted them.   Taught Vanilla JavaScript, Bootstrap & Jquery, Nodejs and Python, Basics to Software Engineering Beginners.   Learnt some Web technologies (Tailwind, C++, Angular 11).   Assisted in troubleshooting web-based issues."
           />
