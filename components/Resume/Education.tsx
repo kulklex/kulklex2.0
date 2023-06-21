@@ -15,22 +15,22 @@ export default function Education({}: Props) {
 
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Bachelor Of Science in Metallurgical and Material Engineering"
-            subTitle="University of Lagos (2018 - Date)"
-            result="Second Class Upper"
-            desc=""
+            title="Bsc (Hons) Information Technology"
+            subTitle="Middlesex University (2024)"
+            result="First Class"
+            desc="The Burroughs, Hendon, London, United Kingdom"
           />
           <ResumeCard
             title="Advanced Diploma In Software Engineering"
-            subTitle="Aptech Computer Education (2020 - 2022)"
+            subTitle="Aptech Computer Education (2022)"
             result="Distinction"
-            desc=""
+            desc="Aagbole, Ogun, Nigeria"
           />
           <ResumeCard
             title="Senior Secondary School Certificate"
             subTitle="Government Senior Model College Owutu (2017)"
             result="Excellent"
-            desc=""
+            desc="Ikorodu, Lagos, Nigeria"
           />
         </div>
     </motion.div>
