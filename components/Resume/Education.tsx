@@ -17,7 +17,7 @@ export default function Education({}: Props) {
           <ResumeCard
             title="Bsc (Hons) Information Technology"
             subTitle="Middlesex University (2024)"
-            result="First Class"
+            result=""
             desc="The Burroughs, Hendon, London, United Kingdom"
           />
           <ResumeCard
