@@ -49,6 +49,8 @@ export default function Projects({}: Props) {
     slidesToScroll: 1,
     autoplay: true,  
     autoplaySpeed: 8000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />
   }
 
   return (
@@ -64,7 +66,7 @@ export default function Projects({}: Props) {
           </span>
         </div>
 
-        <Slider {...settings} className="md:px-4 lg:w-[70%] flex justify-center items-center text-center">
+        <Slider {...settings} className="md:px-4 lg:w-[50%] flex justify-center items-center text-center">
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
           </div>
