@@ -13,10 +13,6 @@ export default function Features({}: Props) {
       <Title title="my areas of specialty" desc="SERVICES" />
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3 gap-6 xl:gap-20 my-4 px-2 py-4">
         <Card
-          title="Responsive Websites"
-          icon={<CgWebsite />}
-        />
-        <Card
           title="Frontend Development"
           
           icon={<MdOutlineScreenshotMonitor />}
