@@ -46,9 +46,9 @@ export default function Banner({showMenu}: Props) {
         {/* LEFT SIDE ENDS*/}
 
         {/* RIGHT SIDE START*/}
-        <div className={`w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2 md:py-0 ${showMenu ? "hidden" : "py-10"}`}>
+{/*         <div className={`w-full md:w-1/2 h-full flex justify-center items-center relative overflow-hidden px-2 md:py-0 ${showMenu ? "hidden" : "py-10"}`}>
           <Image src={profilePic} alt="banner" className="w-[350px] h-[400px] lg:w-[450px] lg:h-[550px] z-10 rounded" priority />
-        </div> 
+        </div>  */}
         {/* LEFT SIDE ENDS*/}
       </div>  
 
