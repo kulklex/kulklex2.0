@@ -57,14 +57,14 @@ export default function Projects({}: Props) {
             <Title desc="My Projects" />
         </div>
 
-        <div className="text-xs flex justify-center item-center text-center pt-2 pb-4 text-white hover:text-designColor"> 
+        <div className="text-xs flex justify-center item-center text-center pb-4 text-white hover:text-designColor"> 
           <p>Click here to access more projects on my GitHub page {"  "}</p>
           <span className="bg-black text-white flex items-center justify-center text-center px-2">
             <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
           </span>
         </div>
 
-        <Slider {...settings} className="md:px-4 lg:w-[50%] flex justify-center items-center text-center">
+        <Slider {...settings} className="md:px-4 lg:w-[70%] flex justify-center items-center text-center">
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
           </div>
@@ -99,6 +99,10 @@ export default function Projects({}: Props) {
             <ProjectsCard title="Modern UI Landing-Page" desc="A complete responsive modern website design only" url={`https://nextjs-modern-ui-responsive-landing-page.vercel.app/`} gitHub="https://github.com/kulklex/ai-responsive-landing-page-ui" img={modernUI} />
           </div> */}
         </Slider>
+
+      <div className="text-sm flex justify-center item-center text-center py-4 text-white hover:text-designColor"> 
+        Navigate to the next project by using the arrow.
+      </div>
     </section>
   )
 }
