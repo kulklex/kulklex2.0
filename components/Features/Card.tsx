@@ -2,8 +2,8 @@ import React from 'react'
 import { HiArrowUp } from "react-icons/hi";
 
 interface Props {
-    title: string
-    desc: string
+    title?: string
+    desc?: string
     icon?: any
 }
 
