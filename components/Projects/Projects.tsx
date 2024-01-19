@@ -22,7 +22,7 @@ function NextArrow(props: Props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red", height: "50px", width: "70px" }}
+      style={{ ...style }}
       onClick={onClick}
     />
   )
@@ -33,7 +33,7 @@ function PrevArrow(props: Props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style }}
       onClick={onClick}
     />
   )
@@ -49,8 +49,6 @@ export default function Projects({}: Props) {
     slidesToScroll: 1,
     autoplay: true,  
     autoplaySpeed: 8000,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
   }
 
   return (
@@ -66,6 +64,10 @@ export default function Projects({}: Props) {
           </span>
         </div>
 
+      <div className="flex justify-center item-center text-center py-4 text-white hover:text-designColor"> 
+        Navigate to the next project by using the arrow.
+      </div>
+      
         <Slider {...settings} className="md:px-4 lg:w-[50%] flex justify-center items-center text-center">
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API" url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
@@ -101,10 +103,6 @@ export default function Projects({}: Props) {
             <ProjectsCard title="Modern UI Landing-Page" desc="A complete responsive modern website design only" url={`https://nextjs-modern-ui-responsive-landing-page.vercel.app/`} gitHub="https://github.com/kulklex/ai-responsive-landing-page-ui" img={modernUI} />
           </div> */}
         </Slider>
-
-      <div className="text-sm flex justify-center item-center text-center py-4 text-white hover:text-designColor"> 
-        Navigate to the next project by using the arrow.
-      </div>
     </section>
   )
 }
