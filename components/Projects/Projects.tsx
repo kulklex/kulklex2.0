@@ -54,12 +54,12 @@ export default function Projects({}: Props) {
   return (
     <section id="projects"  className="w-full px-4 py-20 border-b-[1px] border-b-designColor lg:flex lg:flex-col lg:justify-center lg:items-center lg:text-center">
         <div className="flex justify-center items-center text-center">
-            <Title title={`HERE I SHOW OFF SOME OF THE PROJECTS I HAVE WORKED ON.`} desc="My Projects" />
+            <Title desc="My Projects" />
         </div>
 
         <div className="text-xs flex justify-center item-center text-center pt-2 pb-4 text-white hover:text-designColor"> 
-          <p>You can access more projects on my github page {"  "}</p>
-          <span className="bg-black text-white flex items-center justify-center text-center px-2 py-1">
+          <p>Click here to access more projects on my GitHub page {"  "}</p>
+          <span className="bg-black text-white flex items-center justify-center text-center px-2">
             <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
           </span>
         </div>
