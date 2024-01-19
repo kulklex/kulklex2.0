@@ -1,8 +1,8 @@
 import React from 'react'
 
 interface Props {
-    title: string
-    desc: string
+    title?: string
+    desc?: string
 }
 
 const Title = ({title, desc} : Props) => {
