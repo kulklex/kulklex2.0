@@ -6,8 +6,8 @@ import Image from 'next/image'
 
 
 type Props = {
-    title: string
-    desc: string
+    title?: string
+    desc?: string
     url?: any
     gitHub?: any
     img?: any
