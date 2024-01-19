@@ -22,7 +22,7 @@ function NextArrow(props: Props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "red", height: "50px", width: "70px" }}
       onClick={onClick}
     />
   )
