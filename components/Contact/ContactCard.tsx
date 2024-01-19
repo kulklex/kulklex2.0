@@ -17,8 +17,8 @@ export default function ContactCard({}: Props) {
           Hassan Yusuff
         </h3>
         <p className="text-lg font-normal text-designColor">Full Stack Developer</p>
-        <p className="text-base text-white flex items-center gap-2">Phone: <span className="text-lightText">+234 8118082878</span></p>
-        <p className="text-base text-white flex items-center gap-2">Email: <span className="text-lightText">kulklex@gmail.com</span></p>
+        <p className="text-base text-white flex items-center gap-2">Phone: <span className="text-lightText">+44 07498936758</span></p>
+        <p className="text-base text-white flex items-center gap-2">Email: <span className="text-lightText">hassanyusuff670@gmail.com</span></p>
       </div>
 
       <div className="mt-5">
