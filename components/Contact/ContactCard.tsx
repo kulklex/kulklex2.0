@@ -16,7 +16,7 @@ export default function ContactCard({}: Props) {
         <h3 className="text-3xl font-bold text-white">
           Hassan Yusuff
         </h3>
-        <p className="text-lg font-normal text-designColor">Full Stack Developer</p>
+        <p className="text-lg font-normal text-designColor">Software Developer</p>
         <p className="text-base text-white flex items-center gap-2">Phone: <span className="text-lightText">+44 07498936758</span></p>
         <p className="text-base text-white flex items-center gap-2">Email: <span className="text-lightText">hassanyusuff670@gmail.com</span></p>
       </div>
