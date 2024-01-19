@@ -58,7 +58,7 @@ export default function Projects({}: Props) {
         </div>
 
 
-      <div className="flex justify-center item-center text-center py-4 text-white hover:text-designColor"> 
+      <div className="flex justify-center item-center text-center gap-4 text-white hover:text-designColor"> 
         Navigate to the next project by using the arrow.
       </div>
       
@@ -98,7 +98,7 @@ export default function Projects({}: Props) {
           </div> */}
         </Slider>
 
-         <div className="text-xs flex justify-center item-center text-center pb-4 text-white hover:text-designColor"> 
+         <div className="text-xs flex justify-center item-center text-center gap-4 text-white hover:text-designColor"> 
           <p>Click here to access more projects on my GitHub page {"  "}</p>
           <span className="bg-black text-white flex items-center justify-center text-center px-2">
             <Link href="https://github.com/kulklex/" target='_blank'><FaGithub /></Link>
