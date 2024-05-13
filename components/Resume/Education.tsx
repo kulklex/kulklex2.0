@@ -17,20 +17,20 @@ export default function Education({}: Props) {
           <ResumeCard
             title="Bsc (Hons) Information Technology"
             subTitle="Middlesex University (2024)"
-            result="(ongoing)"
+            result="First Class"
             desc="The Burroughs, Hendon, London, United Kingdom"
           />
           <ResumeCard
             title="Advanced Diploma In Software Engineering"
             subTitle="Aptech Computer Education (2022)"
             result="Distinction"
-            desc="Aagbole, Ogun, Nigeria"
+            desc=""
           />
           <ResumeCard
             title="Senior Secondary School Certificate"
             subTitle="Government Senior Model College Owutu (2017)"
             result="Excellent"
-            desc="Ikorodu, Lagos, Nigeria"
+            desc="Lagos, Nigeria"
           />
         </div>
     </motion.div>
