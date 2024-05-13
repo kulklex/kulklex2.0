@@ -8,7 +8,6 @@ export default function Experience({}: Props) {
   return (
     <motion.div className="w-full px-4 py-12 font-titleFont gap-10 lgl:gap-20"  initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 0.5 } }}>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - Date</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-designColor border-opacity-30 flex flex-col gap-10">
