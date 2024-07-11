@@ -17,13 +17,19 @@ export default function Education({}: Props) {
             title="Bsc (Hons) Information Technology"
             subTitle="Middlesex University (2024)"
             result="First Class"
-            desc="The Burroughs, Hendon, London, United Kingdom"
+            desc="London, United Kingdom"
           />
           <ResumeCard
-            title="Advanced Diploma In Software Engineering"
+            title="  Diploma In Software Engineering"
             subTitle="Aptech Computer Education (2022)"
             result="Distinction"
-            desc=""
+            desc="Lagos, Nigeria"
+          />
+          <ResumeCard
+            title="Foundation degree"
+            subTitle="University of Lagos (2018)"
+            result="Merit"
+            desc="Lagos, Nigeria"
           />
           <ResumeCard
             title="Senior Secondary School Certificate"

@@ -7,9 +7,9 @@ import Experience from './Experience'
 type Props = {}
 
 export default function Resume({}: Props) {
-  const [educationData, setEducationData] = useState<boolean>(true)  
+  const [educationData, setEducationData] = useState<boolean>(false)  
   const [skillData, setSkillData] = useState<boolean>(false)
-  const [experienceData, setExperienceData] = useState<boolean>(false)
+  const [experienceData, setExperienceData] = useState<boolean>(true)
 
 
   return (
@@ -20,22 +20,22 @@ export default function Resume({}: Props) {
 
       <div>
         <ul className="w-full grid grid-cols-3">
+          <li className={`resumeLi ${experienceData ? 'border-designColor rounded-lg' : 'border-transparent'}`} onClick={() => {setEducationData(false); setSkillData(false); setExperienceData(true)}}>
+            Experience
+          </li>
           <li className={`resumeLi ${educationData ? 'border-designColor rounded-lg' : 'border-transparent'}`} onClick={() => {setEducationData(true); setSkillData(false); setExperienceData(false)}}>
             Education
           </li>
           <li className={`resumeLi ${skillData ? 'border-designColor rounded-lg' : 'border-transparent'}`} onClick={() => {setEducationData(false); setSkillData(true); setExperienceData(false)}}>
             Skills
           </li>
-          <li className={`resumeLi ${experienceData ? 'border-designColor rounded-lg' : 'border-transparent'}`} onClick={() => {setEducationData(false); setSkillData(false); setExperienceData(true)}}>
-            Experience
-          </li>
         </ul>
         
       </div>
 
+      {experienceData && <Experience />}
       {educationData && <Education />}
       {skillData && <Skills />}
-      {experienceData && <Experience />}
     </section>
   )
 }

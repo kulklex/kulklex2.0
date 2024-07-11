@@ -13,21 +13,26 @@ export default function Experience({}: Props) {
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Front-End Developer (Remote)"
-            subTitle="(June 2023 - September 2023)"
+            subTitle="Resavation - (May 2023 - September 2023)"
             result=""
-            desc="Participated as an agile team member in the development of the company's flagship web application, utilizing React, Node.js, Redux, HTML5, CSS3, and Tailwind CSS. Contributed to user-centric interface design, enhancing visual appeal and usability. Rapidly progressed from intern level due to outstanding performance and demonstrated ability to work effectively within the agile team"
+            desc="I Participated as an agile team member in the development of the company's flagship web application, utilizing React, Node.js, Redux, HTML5, CSS3, and Tailwind CSS. My contributions added to the team’s achievement of 1000 early subscribers within its first 3 months of launch.
+                  · I also contributed greatly to user-centric interface design, enhancing visual appeal and usability. This front-end and user experience techniques helped improve the website’s visitor retention rate by over 15%.
+                  · I was rapidly promoted from junior level to mid-level within the first 2 months of joining the team, due to outstanding performance and demonstrated ability to work effectively within the agile team."
           />
           <ResumeCard
-            title="Full Stack Junior Developer (Contract)"
+            title="Java & Full Stack Junior Developer (Hybrid)"
             subTitle="DataSek IT & ENGR - (April 2022 - September 2022)"
             result=""
-            desc="Created, Built and Designed the entire Dashboard of the product and assisted with the design for the web application. Participated in the development of RESTFUL services, API integration, Payment Gateway Integration, Database management, Authentication and Authorization implementations and other technical back-end aspect ofthe product.   Performed unit tests and automated tests for each components of the software.    Assisted with Deployment and maintenance of Software on the Cloud.   Worked as a team-member led by a team-lead."
+            desc="I collaborated with developers and designers remotely to transform different admin dashboard wireframes into a dynamic and responsive web application using HTML5, CSS3, JavaScript, Bootstrap, and React.
+                · I integrated front-end components seamlessly with existing backend systems, involving technologies such as Node.js, Express.js, MySQL, and RESTful APIs for real-time data exchange and updates, and this was done using over 4000 datasets.
+                · I also developed and maintained services using Spring Boot, focusing on creating robust, scalable microservice architectures. I applied best practices in Spring Security for authentication and authorization, alongside Spring Data JPA for efficient database operations. The website has not experienced any form of breach till date"
           />
           <ResumeCard
-            title="Web Development (Internship)"
-            subTitle="Aptech (January 2021 - May 2021)"
+            title="Responsive Web Developer (Onsite)"
+            subTitle="Aptech (January 2021 - December 2021)"
             result=""
-            desc="Participated in the development of Website Projects and hosted them.   Taught Vanilla JavaScript, Bootstrap & Jquery, Nodejs and Python, Basics to Software Engineering Beginners.   Learnt some Web technologies (Tailwind, C++, Angular 11).   Assisted in troubleshooting web-based issues."
+            desc="I delivered comprehensive software engineering lectures on core topics, including front-end development (Angular, JavaScript) and backend development (NodeJS, Express JS), to a cumulative total of over 50 Aptech students, over a 6-month period.
+                · I organized and conducted tech lab sessions to facilitate hands-on learning and application of technological concepts in software development. These sessions record a 100% learning success rate."
           />
         </div>
     </motion.div>
