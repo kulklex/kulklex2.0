@@ -12,6 +12,7 @@ import restaurantUI from "./images/projects/restaurantUI.png"
 import videoApp from "./images/projects/social-video-app.png"
 import travelAdvisor from "./images/projects/travel-advisory.png"
 import nativeJobsAPI from "./images/projects/nativeJobsApi.png"
+import dataVisualization from "./images/projects/dataVisualization.png"
 
 
 
@@ -19,4 +20,4 @@ import nativeJobsAPI from "./images/projects/nativeJobsApi.png"
 
 
 
-export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic,}
+export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic, dataVisualization}
