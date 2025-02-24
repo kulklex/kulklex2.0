@@ -12,27 +12,29 @@ export default function Experience({}: Props) {
         </div>
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-designColor border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Front-End Developer (Remote)"
-            subTitle="Resavation - (May 2023 - September 2023)"
-            result=""
-            desc="I Participated as an agile team member in the development of the company's flagship web application, utilizing React, Node.js, Redux, HTML5, CSS3, and Tailwind CSS. My contributions added to the team’s achievement of 1000 early subscribers within its first 3 months of launch.
-                  · I also contributed greatly to user-centric interface design, enhancing visual appeal and usability. This front-end and user experience techniques helped improve the website’s visitor retention rate by over 15%.
-                  · I was rapidly promoted from junior level to mid-level within the first 2 months of joining the team, due to outstanding performance and demonstrated ability to work effectively within the agile team."
+            title="Freelancer"
+            subTitle="Multiple clients - (September 2022 - Present)"
+            desc="For almost 3 years, I’ve been freelancing, collaborating directly with clients to build custom solutions that address real-world problems. My work ranges from crafting new products from the ground up to jumping in as a contributor to refine and expand on existing platforms. Whether it's streamlining processes, enhancing features, or solving complex technical challenges, my goal is always to help clients improve their product experience and achieve their objectives efficiently."
           />
           <ResumeCard
-            title="Java & Full Stack Junior Developer (Hybrid)"
-            subTitle="DataSek IT & ENGR - (April 2022 - September 2022)"
-            result=""
-            desc="I collaborated with developers and designers remotely to transform different admin dashboard wireframes into a dynamic and responsive web application using HTML5, CSS3, JavaScript, Bootstrap, and React.
-                · I integrated front-end components seamlessly with existing backend systems, involving technologies such as Node.js, Express.js, MySQL, and RESTful APIs for real-time data exchange and updates, and this was done using over 4000 datasets.
-                · I also developed and maintained services using Spring Boot, focusing on creating robust, scalable microservice architectures. I applied best practices in Spring Security for authentication and authorization, alongside Spring Data JPA for efficient database operations. The website has not experienced any form of breach till date"
+            title="Software Developer"
+            subTitle="Resavation - (November 2022 - December 2024)"
+            desc="Participated as an agile team member in the development of the company's flagship web application, utilizing React, Node.js, Redux, HTML5, CSS3, and Tailwind CSS. My contributions added to the team’s achievement of 1000 early subscribers within its first 3 months of launch.
+                  · Contributed greatly to user-centric interface design, enhancing visual appeal and usability. This front-end and user experience techniques helped improve the website’s visitor retention rate by over 15%.
+                  · Rapidly promoted from junior level to mid-level within the first 2 months of joining the team, due to outstanding performance and demonstrated ability to work effectively within the agile team."
           />
           <ResumeCard
-            title="Responsive Web Developer (Onsite)"
-            subTitle="Aptech (January 2021 - December 2021)"
-            result=""
-            desc="I delivered comprehensive software engineering lectures on core topics, including front-end development (Angular, JavaScript) and backend development (NodeJS, Express JS), to a cumulative total of over 50 Aptech students, over a 6-month period.
-                · I organized and conducted tech lab sessions to facilitate hands-on learning and application of technological concepts in software development. These sessions record a 100% learning success rate."
+            title="Java & Full Stack Junior Developer"
+            subTitle="DataSek IT & ENGR - (June 2021 - September 2022)"
+            desc="Collaborated with developers and designers remotely to transform different admin dashboard wireframes into a dynamic and responsive web application using HTML5, CSS3, JavaScript, Bootstrap, and React.
+                · Integrated front-end components seamlessly with existing backend systems, involving technologies such as Node.js, Express.js, MySQL, and RESTful APIs for real-time data exchange and updates, and this was done using over 4000 datasets.
+                · Developed and maintained services using Spring Boot, focusing on creating robust, scalable microservice architectures. I applied best practices in Spring Security for authentication and authorization, alongside Spring Data JPA for efficient database operations. The website has not experienced any form of breach till date"
+          />
+          <ResumeCard
+            title="Responsive Web Developer Intern"
+            subTitle="Aptech (January 2021 - June 2021)"
+            desc="Delivered comprehensive software engineering lectures on core topics, including front-end development (Angular, JavaScript) and backend development (NodeJS, Express JS), to a cumulative total of over 50 Aptech students, over a 6-month period.
+                · Organized and conducted tech lab sessions to facilitate hands-on learning and application of technological concepts in software development. These sessions record a 100% learning success rate."
           />
         </div>
     </motion.div>

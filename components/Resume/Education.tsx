@@ -23,20 +23,20 @@ export default function Education({}: Props) {
             title="  Diploma In Software Engineering"
             subTitle="Aptech Computer Education (2022)"
             result="Distinction"
-            desc="Lagos, Nigeria"
+            desc=""
           />
           <ResumeCard
-            title="Foundation degree"
+            title="A-levels"
             subTitle="University of Lagos (2018)"
             result="Merit"
-            desc="Lagos, Nigeria"
+            desc=""
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Senior Secondary School Certificate"
             subTitle="Government Senior Model College Owutu (2017)"
             result="Excellent"
-            desc="Lagos, Nigeria"
-          />
+            desc=""
+          /> */}
         </div>
     </motion.div>
   )
