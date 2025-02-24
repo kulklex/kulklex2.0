@@ -134,10 +134,10 @@ export default function Banner({showMenu}: Props) {
               <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
             </span>
             <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
-              <Link href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target='_blank'><FaLinkedinIn /></Link>
+              <Link href="https://www.linkedin.com/in/hassan-yusuff-37103b320?trk=contact-info" target='_blank'><FaLinkedinIn /></Link>
             </span>
             <span className="bannerIcon instagramIcon text-2xl md:text-4xl">
-              <Link href="https://www.instagram.com/_haz_zan_/" target='_blank'><FaInstagram /></Link>
+              <Link href="https://www.instagram.com/kulklexs?igsh=NmZpdmMydm14eGpu&utm_source=qr" target='_blank'><FaInstagram /></Link>
             </span>
           </div>
         </div>
