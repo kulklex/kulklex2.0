@@ -6,8 +6,8 @@ import {  BsGit } from 'react-icons/bs'
 import {  AiOutlineHtml5 } from 'react-icons/ai'
 import {  TbBrandReactNative } from 'react-icons/tb'
 import { DiNodejs, DiPython, DiDjango, DiMongodb, DiJava } from 'react-icons/di'
-import { FaFacebookF, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa"
-import { SiTailwindcss, SiMysql, SiPostgresql, SiBootstrap, SiSpringboot, SiSpringsecurity, SiFigma, SiNextdotjs, SiTypescript, SiRedux } from "react-icons/si"
+import { FaFacebookF, FaGithub, FaInstagram, FaTwitter, FaLinkedinIn, FaReact, FaAws } from "react-icons/fa"
+import { SiTailwindcss, SiMysql, SiPostgresql, SiBootstrap, SiSpringboot, SiSpringsecurity, SiFigma, SiNextdotjs, SiTypescript, SiRedux, SiSelenium } from "react-icons/si"
 import {profilePic} from '../public'
 
 type Props = {
@@ -38,8 +38,7 @@ export default function Banner({showMenu}: Props) {
               { !showMenu && <Cursor cursorBlinking={false} cursorStyle="|"  cursorColor="#DCCA87" />}
             </h2>
             <p className="text-base font-bodyFont leading-6 tracking-wide lg:pt-10 lg:text-xl">
-              An enthusiast of software development. Being an enthusiast lead to my exploration of the field, I always consider myself a ‘forever student’ eager to build projects and stay in tune with the latest IT trends.
-              My work is related to digital solutions that can help to achieve better results. Scroll through my portfolio for more about me.
+              Passionate about software development, I thrive on solving complex problems and building scalable digital solutions. My journey has led me to develop full-scale applications and continuously explore new technologies, ensuring my solutions are efficient, user-centric, and in line with modern development standards. Explore my portfolio to view my work in action.
             </p>
           </div>
         </div>
@@ -66,14 +65,14 @@ export default function Banner({showMenu}: Props) {
             <span className="bannerIcon text-extrabold text-4xl text-green-300">
               <DiNodejs />
             </span>
-            <span className="bannerIcon text-extrabold text-4xl text-green-800">
-              <DiMongodb />
-            </span>
             <span className="bannerIcon text-extrabold text-4xl">
               <SiNextdotjs />
             </span>
             <span className="bannerIcon text-extrabold text-4xl text-blue-600">
               <SiTypescript />
+            </span>
+            <span className="bannerIcon  text-extrabold text-4xl text-blue-800">
+              <FaAws />
             </span>
             <span className="bannerIcon text-extrabold text-4xl text-purple-500">
               <SiRedux />
@@ -93,9 +92,6 @@ export default function Banner({showMenu}: Props) {
             <span className="bannerIcon text-extrabold text-4xl text-green-600">
               <SiSpringboot />
             </span>
-            <span className="bannerIcon text-extrabold text-4xl text-green-800">
-              <SiSpringsecurity />
-            </span>
             <span className="bannerIcon text-extrabold text-4xl text-white">
               <DiPython />
             </span>
@@ -108,8 +104,14 @@ export default function Banner({showMenu}: Props) {
             <span className="bannerIcon  text-extrabold text-4xl text-blue-800">
               <SiPostgresql />
             </span>
+            <span className="bannerIcon text-extrabold text-4xl text-green-800">
+              <DiMongodb />
+            </span>
             <span className="bannerIcon text-extrabold text-4xl text-blue-800">
               <TbBrandReactNative />
+            </span>
+            <span className="bannerIcon text-extrabold text-4xl text-purple-700">
+              <SiSelenium />
             </span>
             <span className="bannerIcon text-extrabold text-4xl text-orange-500">
               <AiOutlineHtml5 />
