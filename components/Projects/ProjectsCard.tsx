@@ -20,7 +20,7 @@ export default function ProjectsCard({title, desc, url, gitHub, img}: Props) {
   return (
     <div className="w-full px-4 h-auto rounded-lg shadow-shadowOne flex flex-col justify-center items-center text-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
         <div className="w-full h-full overflow-hidden rounded-lg md:py-4">
-            <Image className="w-full h-full object-contain group-hover:scale-110 duration-300 cursor-pointer" 
+            <Image className="w-full h-full object-contain group-hover:scale-110 duration-300 cursor-pointer rounded py-2.5 lg:py-1" 
                 src={img} alt="project-image" />
         </div>
         
