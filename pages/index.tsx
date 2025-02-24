@@ -16,9 +16,9 @@ const Home: NextPage = () => {
       <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       <div className="max-w-screen-xl mx-auto py-4">
         <Banner showMenu={showMenu} />
+        <Projects />
         <Features />
         <Resume />
-        <Projects />
         <Contact />
         <Footer />
       </div>

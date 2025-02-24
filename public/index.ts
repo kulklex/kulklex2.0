@@ -13,11 +13,11 @@ import videoApp from "./images/projects/social-video-app.png"
 import travelAdvisor from "./images/projects/travel-advisory.png"
 import nativeJobsAPI from "./images/projects/nativeJobsApi.png"
 import dataVisualization from "./images/projects/dataVisualization.png"
+import budspot from "./images/projects/budspot.png"
+import Tifehairhaven from "./images/projects/Tifehairhaven.png"
 
 
 
 
 
-
-
-export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic, dataVisualization}
+export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic, dataVisualization, budspot, Tifehairhaven}
