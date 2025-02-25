@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Title'
 import ProjectsCard from './ProjectsCard'
 import Slider from 'react-slick' 
-import {restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI, nativeJobsAPI, dataVisualization, budspot, Tifehairhaven} from "../../public"
+import {restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI, nativeJobsAPI, dataVisualization, budspot, Tifehairhaven, store} from "../../public"
 import {  FaGithub,  } from 'react-icons/fa'
 import Link from 'next/link'
 
@@ -77,6 +77,9 @@ export default function Projects({}: Props) {
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API. Mobile product, check out github link for source code." 
             url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
+          </div>
+          <div>
+            <ProjectsCard title="E-Commerce with login" desc="Created with Vite.js. Main purpose of this project is to showcase expertise with e-commerce platforms and best use cases. Includes Authentication, Redux, and paystack integration." url={`https://my-store-ten-beta.vercel.app/`} gitHub="https://github.com/kulklex/MyStore" img={store} />
           </div>
           <div>
             <ProjectsCard title="Blog using GraphCMS" desc="Testing out GraphQL expertise with this project. A Nextjs complete blog app retrieving data with GraphCMS" url={`https://next-js-blog-with-graph-ql-iz78.vercel.app/`} gitHub="https://github.com/kulklex/NextJsBlog-With-GraphQL" img={graphCMSBlog} />

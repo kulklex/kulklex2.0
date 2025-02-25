@@ -15,9 +15,10 @@ import nativeJobsAPI from "./images/projects/nativeJobsApi.png"
 import dataVisualization from "./images/projects/dataVisualization.png"
 import budspot from "./images/projects/budspot.png"
 import Tifehairhaven from "./images/projects/Tifehairhaven.png"
+import store from "./images/projects/store.png"
 
 
 
 
 
-export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic, dataVisualization, budspot, Tifehairhaven}
+export {logo, nativeJobsAPI, restaurantUI, videoApp, travelAdvisor, modernUI, pgtwUI, pixabayAPI, realEstateAPI, calcRoute, graphCMSBlog, cryptoAPI,   contactImg,  profilePic, dataVisualization, budspot, Tifehairhaven, store}
