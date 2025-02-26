@@ -25,14 +25,14 @@ export default function Experience({}: Props) {
           />
           <ResumeCard
             title="Java & Full Stack Junior Developer"
-            subTitle="DataSek IT & ENGR - (June 2021 - September 2022)"
+            subTitle="DataSek IT & ENGR - (June 2020 - September 2022)"
             desc="Collaborated with developers and designers remotely to transform different admin dashboard wireframes into a dynamic and responsive web application using HTML5, CSS3, JavaScript, Bootstrap, and React.
                 · Integrated front-end components seamlessly with existing backend systems, involving technologies such as Node.js, Express.js, MySQL, and RESTful APIs for real-time data exchange and updates, and this was done using over 4000 datasets.
                 · Developed and maintained services using Spring Boot, focusing on creating robust, scalable microservice architectures. I applied best practices in Spring Security for authentication and authorization, alongside Spring Data JPA for efficient database operations. The website has not experienced any form of breach till date"
           />
           <ResumeCard
             title="Responsive Web Developer Intern"
-            subTitle="Aptech (January 2021 - June 2021)"
+            subTitle="Aptech (January 2020 - June 2020)"
             desc="Delivered comprehensive software engineering lectures on core topics, including front-end development (Angular, JavaScript) and backend development (NodeJS, Express JS), to a cumulative total of over 50 Aptech students, over a 6-month period.
                 · Organized and conducted tech lab sessions to facilitate hands-on learning and application of technological concepts in software development. These sessions record a 100% learning success rate."
           />
