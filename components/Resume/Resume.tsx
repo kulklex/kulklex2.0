@@ -3,6 +3,7 @@ import Title from '../Title'
 import Education from './Education'
 import Skills from './Skills'
 import Experience from './Experience'
+import ViewResume from './ViewResume'
 
 type Props = {}
 
@@ -15,7 +16,7 @@ export default function Resume({}: Props) {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-designColor">
       <div className='flex justify-center items-center text-center'>
-        <Title title='' desc='My Resume' />
+        <Title title='' content={<ViewResume />} desc='My Resume' />
       </div>
 
       <div>
