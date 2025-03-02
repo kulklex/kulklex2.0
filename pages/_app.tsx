@@ -7,8 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return(<> 
   <Head>
-    <title>Hassan’s Portfolio</title>
-    <meta name="description" content="Hassan Yusuff's Portfolio Website" />
+    <title>Hassan Yusuff | Software Developer</title>
+    <meta name="description" content="Hassan Yusuff’s Portfolio - Software Developer specializing in React, React Native, Next.js, Node.js, Enterprise Java, Spring boot, Computer Vision and Machine Learning." />
+    <meta name="keywords" content="Kulklex, Kulklexs, Software Developer, Software Engineer, Full-Stack Developer, Next.js, React, React Native, Nodejs, Java, Javascript, Typescript, Python, Spring, Springboot, AWS, Computer Vision, Machine learning, SQL, NoSQL, Web Development" />
+    <meta name="author" content="Hassan Yusuff" />
    
     {/* Favicon Links */}
     <link rel="shortcut icon" href="/favicon.ico" />

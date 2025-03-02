@@ -76,7 +76,7 @@ export default function Projects({}: Props) {
           </div>
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API. Mobile product, check out github link for source code." 
-            url={``} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
+            url={`https://github.com/kulklex/React-Native-Jobs-App`} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
           </div>
           <div>
             <ProjectsCard title="E-Commerce with login" desc="Created with Vite.js. Main purpose of this project is to showcase expertise with e-commerce platforms and best use cases. Includes Authentication, Redux, and paystack integration." url={`https://my-store-ten-beta.vercel.app/`} gitHub="https://github.com/kulklex/MyStore" img={store} />
