@@ -62,9 +62,9 @@ export default function Navbar({showMenu, setShowMenu}: Props) {
                                 <span className="bannerIcon bg-blue-400 text-4xl">
                                     <Links href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank' ><FaFacebookF /></Links>
                                 </span>
-                                <span className="bannerIcon bg-blue-800 text-4xl">
+{/*                                 <span className="bannerIcon bg-blue-800 text-4xl">
                                     <Links href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Links>
-                                </span>
+                                </span> */}
                                 <span className="bannerIcon bg-blue-600 text-3xl">
                                     <Links href="https://www.linkedin.com/in/hassan-yusuff-004a60157/" target="_blank"><FaLinkedinIn /></Links>
                                 </span>
