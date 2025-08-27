@@ -29,9 +29,9 @@ export default function ContactCard({}: Props) {
             <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
               <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
             </span>
-            <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
+{/*             <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
               <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
-            </span>
+            </span> */}
             <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
               <Link href="https://www.linkedin.com/in/hassan-yusuff-37103b320?trk=contact-info" ><FaLinkedinIn /></Link>
             </span>
