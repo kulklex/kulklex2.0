@@ -16,7 +16,7 @@ type Props = {
 
 export default function Banner({showMenu}: Props) {
   const [text] = useTypewriter({
-    words: ["Full Stack Developer.", "Software Developer.", "Software Engineer."],
+    words: ["Full Stack Developer.", "Software Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -130,9 +130,9 @@ export default function Banner({showMenu}: Props) {
             <span className="bannerIcon bg-blue-400 text-2xl md:text-4xl">
               <Link href="https://web.facebook.com/sarz.hassan/?_rdc=1&_rdr" target='_blank'><FaFacebookF /></Link>
             </span>
-            <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
+{/*             <span className="bannerIcon bg-blue-800 text-2xl md:text-4xl">
               <Link href="https://mobile.twitter.com/_haz_zan_/" target='_blank'><FaTwitter /></Link>
-            </span>
+            </span> */}
             <span className="bannerIcon bg-blue-600 text-2xl md:text-3xl">
               <Link href="https://www.linkedin.com/in/hassan-yusuff-37103b320?trk=contact-info" target='_blank'><FaLinkedinIn /></Link>
             </span>
