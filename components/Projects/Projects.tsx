@@ -71,9 +71,9 @@ export default function Projects({}: Props) {
             <ProjectsCard title="Price Comparison Website" desc="Budspot is a price comparison website designed specifically for earbuds, inspired by PriceRunner, and developed to showcase expertise in Enterprise Java, Multithreading, and the Spring Framework. Users can perform a simple search to view detailed product information, with advanced web scraping implemented via Selenium and Java. The application pulls real-time data from major retailers such as eBay, BackMarket, Argos, John Lewis, and Currys, storing the results securely in an SQL database. For efficient handling of large results, pagination is implemented for searches returning more than 10 products. The backend is powered by a REST API built with Express.js, running seamlessly within the Next.js framework, providing a smooth, full-stack experience with a modern and responsive UI. The data is stored on a DigitalOcean droplet, but may not always be fully up-to-date due to frequent changes on source websites (Websites that were scraped)." 
               url={`https://price-comparison-website.vercel.app/`} gitHub="https://github.com/kulklex/Price-comparison-Website" img={budspot} />
           </div>
-          <div>
+{/*           <div>
             <ProjectsCard title="Data Visualisation Website (Machine learning)" desc="This website focuses on the data visualization of football data, including sentiment analysis derived from news data for five football teams, actual match results, and forecasts produced using AWS SageMaker. Note that the AWS bucket access has expired, the link does not work anymore. Check out github code to see implementations. Read project report for further understanding." url={`https://footballdatalandingpagebucket.s3.amazonaws.com/index.html`} gitHub="https://github.com/kulklex/Data-Visualisation-website" img={dataVisualization} />
-          </div>
+          </div> */}
           <div>
             <ProjectsCard title="React Native Jobs API" desc="A cross-platform mobile app that shows available jobs using an external API. Mobile product, check out github link for source code." 
             url={`https://github.com/kulklex/React-Native-Jobs-App`} gitHub="https://github.com/kulklex/React-Native-Jobs-App" img={nativeJobsAPI} />
@@ -87,9 +87,9 @@ export default function Projects({}: Props) {
           <div>
             <ProjectsCard title="TRAVEL-ADVISOR-APP" desc="A Travel advisor app that searches for Restaurants, Hotels and Attractions" url={`https://travel-advisor-app-sable.vercel.app/`} gitHub="https://github.com/kulklex/Travel-Advisor-App" img={travelAdvisor} />
           </div>
-          <div>
+{/*           <div>
             <ProjectsCard title="Live Crypto Coin Ranking APP" desc="Cryptocurrency web app that fetches and displays different crypto data from an external API. Created for personal use!" url={`https://crypto-coin-ranking-app.vercel.app/`} gitHub="https://github.com/kulklex/Crypto-Coin-Ranking-App" img={cryptoAPI} />
-          </div>
+          </div> */}
           {/* <div>
             <ProjectsCard title="Pixabay API" desc="Displaying Dynamic features with Pixabay API" url={`https://pictures-app-with-pixabayapi-git-pixabay-api-kulklex.vercel.app/`} gitHub="https://github.com/kulklex/React-Pixabay-Api" img={pixabayAPI} />
           </div> */}
